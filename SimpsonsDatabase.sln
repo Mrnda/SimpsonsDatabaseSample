@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpsonsDatabase.Models", "SimpsonsDatabase.Models\SimpsonsDatabase.Models.csproj", "{2773BFC1-0268-47B9-B60C-D0E730473D8D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpsonsDatabase.Data", "SimpsonsDatabase.Data\SimpsonsDatabase.Data.csproj", "{30B34E0E-BF84-48D4-8E38-1ADBC51CBA26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +15,9 @@ Global
 		{2773BFC1-0268-47B9-B60C-D0E730473D8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2773BFC1-0268-47B9-B60C-D0E730473D8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2773BFC1-0268-47B9-B60C-D0E730473D8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30B34E0E-BF84-48D4-8E38-1ADBC51CBA26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30B34E0E-BF84-48D4-8E38-1ADBC51CBA26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30B34E0E-BF84-48D4-8E38-1ADBC51CBA26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30B34E0E-BF84-48D4-8E38-1ADBC51CBA26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
