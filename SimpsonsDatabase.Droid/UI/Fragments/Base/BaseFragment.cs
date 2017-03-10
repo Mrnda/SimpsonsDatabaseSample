@@ -11,7 +11,7 @@ using Android.Runtime;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
-using Com.Lilarcor.Cheeseknife;
+
 
 namespace SimpsonsDatabase.Droid
 {

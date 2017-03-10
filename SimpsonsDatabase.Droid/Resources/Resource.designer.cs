@@ -2364,6 +2364,9 @@ namespace SimpsonsDatabase.Droid
 			// aapt resource value: 0x7f0800a2
 			public const int Animation_AppCompat_DropDownUp = 2131230882;
 			
+			// aapt resource value: 0x7f080160
+			public const int AppTheme = 2131231072;
+			
 			// aapt resource value: 0x7f0800a3
 			public const int Base_AlertDialog_AppCompat = 2131230883;
 			
@@ -2819,6 +2822,9 @@ namespace SimpsonsDatabase.Droid
 			
 			// aapt resource value: 0x7f080084
 			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131230852;
+			
+			// aapt resource value: 0x7f08015f
+			public const int MyActionBar = 2131231071;
 			
 			// aapt resource value: 0x7f08001e
 			public const int Platform_AppCompat = 2131230750;

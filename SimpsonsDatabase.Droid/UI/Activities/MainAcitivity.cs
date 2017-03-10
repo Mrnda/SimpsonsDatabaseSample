@@ -13,7 +13,7 @@ using Android.Widget;
 
 namespace SimpsonsDatabase.Droid
 {
-	[Activity(Label = "Simpsons", MainLauncher = true)]
+	[Activity(Label = "Simpsons", MainLauncher = true, Theme = "@style/AppTheme")]
 	public class MainAcitivity : BaseActivity
 	{
 		protected override void OnCreate(Bundle savedInstanceState)
@@ -21,6 +21,10 @@ namespace SimpsonsDatabase.Droid
 			base.OnCreate(savedInstanceState);
 
 			SetContentView(Resource.Layout.activity_main);
+
+			FragmentManager.BeginTransaction()
+						   .Add(Resource.Id.container_main, SimpsonsListFragment.NewInstance())
+						   .Commit();
 		}
 	}
 }

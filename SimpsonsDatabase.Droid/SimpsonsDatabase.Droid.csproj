@@ -78,6 +78,7 @@
     <Compile Include="UI\Activities\MainAcitivity.cs" />
     <Compile Include="UI\Fragments\SimpsonsListFragment.cs" />
     <Compile Include="UI\Adapters\SimpsonsListAdapter.cs" />
+    <Compile Include="UI\Activities\SimpsonDetailActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -97,6 +98,7 @@
     <AndroidResource Include="Resources\layout\activity_main.axml" />
     <AndroidResource Include="Resources\layout\fragment_simpsons_list.axml" />
     <AndroidResource Include="Resources\layout\item_simpsons_list.axml" />
+    <AndroidResource Include="Resources\values\styles.xml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

@@ -40,10 +40,13 @@ namespace SimpsonsDatabase.Droid
 		public override View GetView(int position, View convertView, ViewGroup parent)
 		{
 			var inflater = (LayoutInflater) context.GetSystemService(Context.LayoutInflaterService);
-			var view = inflater.Inflate(Resource.Layout.item_simpsons_list, parent);
+			var view = inflater.Inflate(Resource.Layout.item_simpsons_list, parent, false);
 
 			var textView = view.FindViewById<TextView>(Resource.Id.item_simpsons_list_name);
 
+			textView.Text = list[position].FullName;
+
+			return view;
 		}
 	}
 }
