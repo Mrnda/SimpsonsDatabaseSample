@@ -9,6 +9,8 @@ namespace SimpsonsDatabase.Models
 		public string LastName { get; set; }
 		public int Age { get; set; }
 		public Gender Gender { get; set; }
-		public string Description { get; set; }
+		public string Description { get; set; }g
+
+		public string FullName { get { return FirstName + LastName; } }
 	}
 }
