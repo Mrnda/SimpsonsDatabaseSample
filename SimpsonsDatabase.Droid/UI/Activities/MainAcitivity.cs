@@ -13,7 +13,7 @@ using Android.Widget;
 
 namespace SimpsonsDatabase.Droid
 {
-	[Activity(Label = "Simpsons")]
+	[Activity(Label = "Simpsons", MainLauncher = true)]
 	public class MainAcitivity : BaseActivity
 	{
 		protected override void OnCreate(Bundle savedInstanceState)
