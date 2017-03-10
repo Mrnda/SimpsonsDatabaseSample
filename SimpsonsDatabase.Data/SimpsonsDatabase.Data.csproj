@@ -29,6 +29,17 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\Base\ISimpsonsRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Repositories\" />
+    <Folder Include="Repositories\Base\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SimpsonsDatabase.Models\SimpsonsDatabase.Models.csproj">
+      <Project>{2773BFC1-0268-47B9-B60C-D0E730473D8D}</Project>
+      <Name>SimpsonsDatabase.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
 </Project>
