@@ -27,24 +27,27 @@ namespace SimpsonsDatabase.Droid
 			return intent;
 		}
 
-		CharacterModel simpson;
 
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
 			base.OnCreate(savedInstanceState);
 
+			Guid guid = Guid.Empty;
+
 			if (Intent.HasExtra(ExtraGuid))
 			{
-				var guidString = Intent.GetStringExtra(ExtraGuid);
-				var guid = new Guid(guidString);
-
-				ISimpsonsRepository repository = new MockSimpsonsRepository();
-
-				simpson = repository.GetSimpsonById(guid);
-
-				Title = simpson.FullName;
+				guid = new Guid(Intent.GetStringExtra(ExtraGuid));
+			}
+			else
+			{
+				throw new ArgumentException("Simpson detail requires ID of the simpson to show.");
 			}
 
+			SetContentView(Resource.Layout.activity_simpson_detail);
+
+			FragmentManager.BeginTransaction()
+						   .Add(Resource.Id.container_simpson_detail, SimpsonDetailFragment.NewInstance(guid))
+						   .Commit();
 		}
 	}
 }
