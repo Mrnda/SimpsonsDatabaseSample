@@ -13,7 +13,7 @@ using Android.Views;
 using Android.Widget;
 using SimpsonsDatabase.Droid.UI.Activities.Base;
 
-namespace SimpsonsDatabase.Droid
+namespace SimpsonsDatabase.Droid.UI.Fragments.Base
 {
 	public abstract class BaseFragment : Fragment
 	{

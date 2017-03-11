@@ -13,8 +13,9 @@ using Android.Views;
 using Android.Widget;
 using SimpsonsDatabase.Data;
 using SimpsonsDatabase.Droid.UI.Acitivities;
+using SimpsonsDatabase.Droid.UI.Fragments.Base;
 
-namespace SimpsonsDatabase.Droid
+namespace SimpsonsDatabase.Droid.UI.Fragments
 {
 	public class SimpsonsListFragment : BaseFragment
 	{

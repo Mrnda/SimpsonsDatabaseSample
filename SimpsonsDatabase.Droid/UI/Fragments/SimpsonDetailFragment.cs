@@ -11,9 +11,10 @@ using Android.Runtime;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
+using SimpsonsDatabase.Droid.UI.Fragments.Base;
 using SimpsonsDatabase.Models;
 
-namespace SimpsonsDatabase.Droid
+namespace SimpsonsDatabase.Droid.UI.Fragments
 {
 	public class SimpsonDetailFragment : BaseFragment
 	{
