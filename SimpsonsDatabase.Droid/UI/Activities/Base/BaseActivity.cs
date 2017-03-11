@@ -12,6 +12,8 @@ using Android.Views;
 using Android.Widget;
 using Android.Support.V7.App;
 using SimpsonsDatabase.Data;
+using SimpsonsDatabase.Data.Repositories.Mock;
+using SimpsonsDatabase.Data.Repositories.Base;
 
 namespace SimpsonsDatabase.Droid.UI.Activities.Base
 {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using SimpsonsDatabase.Models;
 
-namespace SimpsonsDatabase.Data
+namespace SimpsonsDatabase.Data.Repositories.Base
 {
 	public interface ISimpsonsRepository
 	{
