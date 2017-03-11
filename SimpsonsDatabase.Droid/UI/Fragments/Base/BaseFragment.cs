@@ -17,5 +17,12 @@ namespace SimpsonsDatabase.Droid
 {
 	public abstract class BaseFragment : Fragment
 	{
+		public new BaseActivity Activity
+		{
+			get
+			{
+				return base.Activity as BaseActivity;
+			}
+		}
 	}
 }
