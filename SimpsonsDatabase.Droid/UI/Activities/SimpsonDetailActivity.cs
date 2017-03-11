@@ -15,7 +15,7 @@ using SimpsonsDatabase.Droid.UI.Activities.Base;
 using SimpsonsDatabase.Droid.UI.Fragments;
 using SimpsonsDatabase.Models;
 
-namespace SimpsonsDatabase.Droid.UI.Acitivities
+namespace SimpsonsDatabase.Droid.UI.Activities
 {
 	[Activity(Label = "", ParentActivity = typeof(MainAcitivity), Theme = "@style/AppTheme")]
 	public class SimpsonDetailActivity : BaseActivity

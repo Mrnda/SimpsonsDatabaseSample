@@ -12,7 +12,7 @@ using Android.Util;
 using Android.Views;
 using Android.Widget;
 using SimpsonsDatabase.Data;
-using SimpsonsDatabase.Droid.UI.Acitivities;
+using SimpsonsDatabase.Droid.UI.Activities;
 using SimpsonsDatabase.Droid.UI.Adapters;
 using SimpsonsDatabase.Droid.UI.Fragments.Base;
 
