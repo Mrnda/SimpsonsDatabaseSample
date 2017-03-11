@@ -29,7 +29,24 @@ namespace SimpsonsDatabase.iOS
 			// Update the user interface for the detail item
 			if (IsViewLoaded && DetailItem != null)
 			{
-				
+				FirstNameLabel.Text = DetailItem.FirstName;
+				LastNameLabel.Text = DetailItem.LastName;
+				AgeLabel.Text = DetailItem.Age.ToString();
+				DescriptionTextView.Text = DetailItem.Description;
+				string gender = "";
+				switch (DetailItem.Gender)
+				{
+					case Gender.Male:
+						gender = "Male";
+						break;
+					case Gender.Female:
+						gender = "Female";
+						break;
+					case Gender.Unknown:
+						gender = "Unknown";
+						break;
+				}
+				GenderLabel.Text = gender;
 			}
 		}
 
