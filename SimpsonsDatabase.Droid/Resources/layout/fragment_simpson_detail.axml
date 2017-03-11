@@ -1,3 +1,91 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
-</LinearLayout>
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/simpson_detail_first_name_ll"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/detail_item_height"
+        android:padding="@dimen/padding_small">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/simpson_detail_first_name" />
+        <TextView
+            android:id="@+id/simpson_detail_first_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:text="Text" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/simpson_detail_last_name_ll"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/detail_item_height"
+        android:layout_below="@id/simpson_detail_first_name_ll"
+        android:padding="@dimen/padding_small">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/simpson_detail_last_name" />
+        <TextView
+            android:id="@+id/simpson_detail_last_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:text="Text" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/simpson_detail_age_ll"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/detail_item_height"
+        android:layout_below="@id/simpson_detail_last_name_ll"
+        android:padding="@dimen/padding_small">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/simpson_detail_age" />
+        <TextView
+            android:id="@+id/simpson_detail_first_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:text="Text" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/simpson_detail_gender_ll"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/detail_item_height"
+        android:layout_below="@id/simpson_detail_age_ll"
+        android:padding="@dimen/padding_small">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/simpson_detail_gender" />
+        <TextView
+            android:id="@+id/simpson_detail_gender_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:text="Text" />
+    </FrameLayout>
+    <TextView
+        android:id="@+id/simpson_detail_description_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/simpson_detail_gender_ll"
+        android:padding="@dimen/padding_small"
+        android:text="@string/simpson_detail_description" />
+    <TextView
+        android:id="@+id/simpson_detail_description_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_small"
+        android:layout_below="@id/simpson_detail_description_label"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
+</RelativeLayout>
