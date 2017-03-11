@@ -98,6 +98,7 @@
   <ItemGroup>
     <Folder Include="Resources\" />
     <Folder Include="ViewControllers\" />
+    <Folder Include="DataSources\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -118,6 +119,7 @@
     <Compile Include="ViewControllers\MasterViewController.designer.cs">
       <DependentUpon>MasterViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataSources\DataSource.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SimpsonsDatabase.Models\SimpsonsDatabase.Models.csproj">
