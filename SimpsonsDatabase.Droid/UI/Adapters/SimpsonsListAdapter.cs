@@ -6,7 +6,7 @@ using Android.Widget;
 using Java.Lang;
 using SimpsonsDatabase.Models;
 
-namespace SimpsonsDatabase.Droid
+namespace SimpsonsDatabase.Droid.UI.Adapters
 {
 	public class SimpsonsListAdapter : BaseAdapter
 	{
