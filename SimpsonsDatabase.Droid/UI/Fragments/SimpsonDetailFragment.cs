@@ -63,10 +63,10 @@ namespace SimpsonsDatabase.Droid
 			int genderResource = 0;
 			switch (character.Gender)
 			{
-				case Gender.Female:
+				case Gender.Male:
 					genderResource = Resource.String.simpson_detail_gender_male;
 					break;
-				case Gender.Male:
+				case Gender.Female:
 					genderResource = Resource.String.simpson_detail_gender_female;
 					break;
 				case Gender.Unknown:

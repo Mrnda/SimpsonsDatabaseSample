@@ -19,6 +19,14 @@ namespace SimpsonsDatabase.Droid
 			this.list = list;
 		}
 
+		public CharacterModel this[int position]
+		{
+			get 
+			{
+				return list[position];	
+			}
+		}
+
 		public override int Count
 		{
 			get

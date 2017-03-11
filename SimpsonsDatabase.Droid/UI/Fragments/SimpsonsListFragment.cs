@@ -27,14 +27,14 @@ namespace SimpsonsDatabase.Droid
 
 		SimpsonsListAdapter adapter;
 
-		public override void OnStart()
+
+
+		void SimpsonSelected(object sender, AdapterView.ItemClickEventArgs e)
 		{
-			base.OnStart();
+			var guid = adapter[e.Position].Id;
 
-			var simpsons = Activity.Repository.GetAllSimpsons();
-
-			adapter = new SimpsonsListAdapter(Activity, simpsons);
-			listView.Adapter = adapter;
+			var intent = SimpsonDetailActivity.GetIntent(Activity, guid);
+			StartActivity(intent);
 		}
 
 		public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
@@ -42,6 +42,11 @@ namespace SimpsonsDatabase.Droid
 			var view = inflater.Inflate(Resource.Layout.fragment_simpsons_list, container, false);
 
 			listView = view.FindViewById<ListView>(Resource.Id.simpsons_list_lv);
+			listView.ItemClick += SimpsonSelected;
+			var simpsons = Activity.Repository.GetAllSimpsons();
+
+			adapter = new SimpsonsListAdapter(Activity, simpsons);
+			listView.Adapter = adapter;
 
 			return view;
 		}
