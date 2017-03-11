@@ -18,5 +18,14 @@ namespace SimpsonsDatabase.Droid
 	
 	public abstract class BaseActivity : AppCompatActivity
 	{
+		private ISimpsonsRepository _repository;
+		public ISimpsonsRepository Repository
+		{
+			get
+			{
+				if (_repository == null) _repository = new MockSimpsonsRepository();
+				return _repository;
+			}
+		}
 	}
 }
