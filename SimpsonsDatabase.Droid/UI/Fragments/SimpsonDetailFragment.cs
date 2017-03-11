@@ -50,6 +50,31 @@ namespace SimpsonsDatabase.Droid
 		{
 			var view = inflater.Inflate(Resource.Layout.fragment_simpson_detail, container, false);
 
+			var tvFirst = view.FindViewById<TextView>(Resource.Id.simpson_detail_first_name_tv);
+			var tvLast = view.FindViewById<TextView>(Resource.Id.simpson_detail_last_name_tv);
+			var tvAge = view.FindViewById<TextView>(Resource.Id.simpson_detail_age_tv);
+			var tvGender = view.FindViewById<TextView>(Resource.Id.simpson_detail_gender_tv);
+			var tvDescription = view.FindViewById<TextView>(Resource.Id.simpson_detail_description_tv);
+
+			tvFirst.Text = character.FirstName;
+			tvLast.Text = character.LastName;
+			tvAge.Text = character.Age.ToString();
+			tvDescription.Text = character.Description;
+			int genderResource = 0;
+			switch (character.Gender)
+			{
+				case Gender.Female:
+					genderResource = Resource.String.simpson_detail_gender_male;
+					break;
+				case Gender.Male:
+					genderResource = Resource.String.simpson_detail_gender_female;
+					break;
+				case Gender.Unknown:
+					genderResource = Resource.String.simpson_detail_gender_unknown;
+					break;
+			}
+			tvGender.Text = Resources.GetString(genderResource);
+
 			return view;
 		}
 	}

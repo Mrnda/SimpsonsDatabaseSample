@@ -7,7 +7,7 @@
 	<string name="simpson_detail_age">Age:</string>
 	<string name="simpson_detail_gender">Gender:</string>
 	<string name="simpson_detail_gender_male">Male</string>
-	<string name="simspon_detail_gender_female">Female</string>
+	<string name="simpson_detail_gender_female">Female</string>
 	<string name="simpson_detail_gender_unknown">Unknown</string>
 	<string name="simpson_detail_description">Description:</string>
 </resources>

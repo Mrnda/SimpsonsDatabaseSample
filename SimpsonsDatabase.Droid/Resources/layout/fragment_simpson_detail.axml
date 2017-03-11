@@ -50,7 +50,7 @@
             android:layout_gravity="center_vertical"
             android:text="@string/simpson_detail_age" />
         <TextView
-            android:id="@+id/simpson_detail_first_name_tv"
+            android:id="@+id/simpson_detail_age_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end|center_vertical"
