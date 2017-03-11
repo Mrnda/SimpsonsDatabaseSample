@@ -11,9 +11,10 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using SimpsonsDatabase.Data;
+using SimpsonsDatabase.Droid.UI.Activities.Base;
 using SimpsonsDatabase.Models;
 
-namespace SimpsonsDatabase.Droid
+namespace SimpsonsDatabase.Droid.UI.Acitivities
 {
 	[Activity(Label = "", ParentActivity = typeof(MainAcitivity), Theme = "@style/AppTheme")]
 	public class SimpsonDetailActivity : BaseActivity

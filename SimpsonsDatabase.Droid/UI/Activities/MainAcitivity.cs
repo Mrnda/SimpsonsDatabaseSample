@@ -10,8 +10,9 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using SimpsonsDatabase.Droid.UI.Activities.Base;
 
-namespace SimpsonsDatabase.Droid
+namespace SimpsonsDatabase.Droid.UI.Activities
 {
 	[Activity(Label = "Simpsons", MainLauncher = true, Theme = "@style/AppTheme")]
 	public class MainAcitivity : BaseActivity

@@ -13,7 +13,7 @@ using Android.Widget;
 using Android.Support.V7.App;
 using SimpsonsDatabase.Data;
 
-namespace SimpsonsDatabase.Droid
+namespace SimpsonsDatabase.Droid.UI.Activities.Base
 {
 	
 	public abstract class BaseActivity : AppCompatActivity
