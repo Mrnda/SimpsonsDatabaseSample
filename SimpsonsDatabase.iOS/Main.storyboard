@@ -83,24 +83,190 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Detail view content goes here" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Lei-5M-9Gs">
-                                <rect key="frame" x="20" y="292" width="560" height="17"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" size="system"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="11" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="20" y="84" width="85" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="14" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="258" y="84" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last name: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="17" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="20" y="112.5" width="88.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="20" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="258" y="113" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="23" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="20" y="141" width="35" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="26" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="258" y="140" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gender:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="29" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="20" y="169.5" width="61.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="33" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="258" y="170" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="36" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="20" y="198" width="92.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="39" translatesAutoresizingMaskIntoConstraints="NO" scrollEnabled="NO">
+                                <rect key="frame" x="20" y="225.5" width="280" height="250"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="11"/>
+                                <exclude reference="14"/>
+                                <exclude reference="17"/>
+                                <exclude reference="20"/>
+                                <exclude reference="23"/>
+                                <exclude reference="26"/>
+                                <exclude reference="29"/>
+                                <exclude reference="33"/>
+                                <exclude reference="36"/>
+                                <exclude reference="39"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="12"/>
+                                <exclude reference="13"/>
+                                <exclude reference="15"/>
+                                <exclude reference="16"/>
+                                <exclude reference="18"/>
+                                <exclude reference="19"/>
+                                <exclude reference="21"/>
+                                <exclude reference="22"/>
+                                <exclude reference="24"/>
+                                <exclude reference="25"/>
+                                <exclude reference="27"/>
+                                <exclude reference="28"/>
+                                <exclude reference="30"/>
+                                <exclude reference="32"/>
+                                <exclude reference="34"/>
+                                <exclude reference="35"/>
+                                <exclude reference="37"/>
+                                <exclude reference="38"/>
+                                <exclude reference="40"/>
+                                <exclude reference="41"/>
+                                <exclude reference="42"/>
+                                <exclude reference="43"/>
+                                <exclude reference="44"/>
+                                <exclude reference="45"/>
+                                <exclude reference="46"/>
+                                <exclude reference="47"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="11"/>
+                                <include reference="14"/>
+                                <include reference="17"/>
+                                <include reference="20"/>
+                                <include reference="23"/>
+                                <include reference="26"/>
+                                <include reference="29"/>
+                                <include reference="33"/>
+                                <include reference="36"/>
+                                <include reference="39"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="12"/>
+                                <include reference="13"/>
+                                <include reference="15"/>
+                                <include reference="16"/>
+                                <include reference="18"/>
+                                <include reference="19"/>
+                                <include reference="21"/>
+                                <include reference="22"/>
+                                <include reference="24"/>
+                                <include reference="25"/>
+                                <include reference="27"/>
+                                <include reference="28"/>
+                                <include reference="30"/>
+                                <include reference="32"/>
+                                <include reference="34"/>
+                                <include reference="35"/>
+                                <include reference="37"/>
+                                <include reference="38"/>
+                                <include reference="40"/>
+                                <include reference="41"/>
+                                <include reference="42"/>
+                                <include reference="43"/>
+                                <include reference="44"/>
+                                <include reference="45"/>
+                                <include reference="46"/>
+                                <include reference="47"/>
+                            </mask>
+                        </variation>
                         <constraints>
-                            <constraint firstItem="Lei-5M-9Gs" firstAttribute="leading" secondItem="MMQ-IT-qOo" secondAttribute="leading" constant="20" symbolic="YES" id="62x-JV-TTJ"/>
-                            <constraint firstItem="Lei-5M-9Gs" firstAttribute="centerY" secondItem="MMQ-IT-qOo" secondAttribute="centerY" id="JzS-HC-Rnl"/>
-                            <constraint firstAttribute="trailing" secondItem="Lei-5M-9Gs" secondAttribute="trailing" constant="20" symbolic="YES" id="pXB-RP-Zz6"/>
+                            <constraint id="12" firstItem="11" firstAttribute="leading" secondItem="MMQ-IT-qOo" secondAttribute="leading" constant="20"/>
+                            <constraint id="13" firstItem="11" firstAttribute="top" secondItem="cIm-e0-J51" secondAttribute="bottom" constant="20"/>
+                            <constraint id="15" firstItem="MMQ-IT-qOo" firstAttribute="trailing" secondItem="14" secondAttribute="trailing" constant="20"/>
+                            <constraint id="16" firstItem="14" firstAttribute="top" secondItem="11" secondAttribute="top"/>
+                            <constraint id="18" firstItem="17" firstAttribute="top" secondItem="11" secondAttribute="bottom" constant="8"/>
+                            <constraint id="19" firstItem="17" firstAttribute="leading" secondItem="MMQ-IT-qOo" secondAttribute="leading" constant="20"/>
+                            <constraint id="21" firstItem="20" firstAttribute="trailing" secondItem="14" secondAttribute="trailing"/>
+                            <constraint id="22" firstItem="20" firstAttribute="top" secondItem="17" secondAttribute="top"/>
+                            <constraint id="24" firstItem="23" firstAttribute="top" secondItem="17" secondAttribute="bottom" constant="8"/>
+                            <constraint id="25" firstItem="11" firstAttribute="leading" secondItem="23" secondAttribute="leading"/>
+                            <constraint id="27" firstItem="26" firstAttribute="top" secondItem="20" secondAttribute="bottom" constant="7"/>
+                            <constraint id="28" firstItem="26" firstAttribute="trailing" secondItem="14" secondAttribute="trailing"/>
+                            <constraint id="30" firstItem="29" firstAttribute="top" secondItem="23" secondAttribute="bottom" constant="8"/>
+                            <constraint id="32" firstItem="29" firstAttribute="leading" secondItem="11" secondAttribute="leading"/>
+                            <constraint id="34" firstItem="33" firstAttribute="top" secondItem="29" secondAttribute="top"/>
+                            <constraint id="35" firstItem="33" firstAttribute="trailing" secondItem="26" secondAttribute="trailing"/>
+                            <constraint id="37" firstItem="11" firstAttribute="leading" secondItem="36" secondAttribute="leading"/>
+                            <constraint id="38" firstItem="36" firstAttribute="top" secondItem="29" secondAttribute="bottom" constant="8"/>
+                            <constraint id="40" firstItem="39" firstAttribute="top" secondItem="36" secondAttribute="bottom" constant="7"/>
+                            <constraint id="41" firstItem="39" firstAttribute="leading" secondItem="36" secondAttribute="leading"/>
+                            <constraint id="42" firstItem="39" firstAttribute="leading" secondItem="36" secondAttribute="leading"/>
+                            <constraint id="43" firstItem="39" firstAttribute="leading" secondItem="36" secondAttribute="leading"/>
+                            <constraint id="44" firstItem="39" firstAttribute="leading" secondItem="36" secondAttribute="leading"/>
+                            <constraint id="45" firstItem="39" firstAttribute="leading" secondItem="36" secondAttribute="leading"/>
+                            <constraint id="46" firstItem="39" firstAttribute="leading" secondItem="36" secondAttribute="leading"/>
+                            <constraint id="47" firstItem="33" firstAttribute="trailing" secondItem="39" secondAttribute="trailing"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Detail" id="cra-N8-TIN"/>
                     <connections>
-                        <outlet property="detailDescriptionLabel" destination="Lei-5M-9Gs" id="sCT-F7-F6f"/>
+                        <outlet property="FirstNameLabel" destination="14" id="name-outlet-14"/>
+                        <outlet property="DescriptionTextView" destination="39" id="name-outlet-39"/>
+                        <outlet property="GenderLabel" destination="33" id="name-outlet-33"/>
+                        <outlet property="AgeLabel" destination="26" id="name-outlet-26"/>
+                        <outlet property="LastNameLabel" destination="20" id="name-outlet-20"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lrm-kH-fPn" sceneMemberID="firstResponder"/>

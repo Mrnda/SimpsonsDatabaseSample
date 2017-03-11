@@ -1,19 +1,19 @@
 ﻿using System;
-
+using SimpsonsDatabase.Models;
 using UIKit;
 
 namespace SimpsonsDatabase.iOS
 {
 	public partial class DetailViewController : UIViewController
 	{
-		public object DetailItem { get; set; }
+		public CharacterModel DetailItem { get; set; }
 
 		protected DetailViewController(IntPtr handle) : base(handle)
 		{
 			// Note: this .ctor should not contain any initialization logic.
 		}
 
-		public void SetDetailItem(object newDetailItem)
+		public void SetDetailItem(CharacterModel newDetailItem)
 		{
 			if (DetailItem != newDetailItem)
 			{
@@ -28,7 +28,9 @@ namespace SimpsonsDatabase.iOS
 		{
 			// Update the user interface for the detail item
 			if (IsViewLoaded && DetailItem != null)
-				detailDescriptionLabel.Text = DetailItem.ToString();
+			{
+				
+			}
 		}
 
 		public override void ViewDidLoad()
