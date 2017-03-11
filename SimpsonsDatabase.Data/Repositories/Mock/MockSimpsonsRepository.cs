@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using SimpsonsDatabase.Data.Repositories.Base;
 using SimpsonsDatabase.Models;
 
-namespace SimpsonsDatabase.Data
+namespace SimpsonsDatabase.Data.Repositories.Mock
 {
 	public class MockSimpsonsRepository : ISimpsonsRepository
 	{
