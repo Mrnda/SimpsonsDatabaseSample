@@ -30,8 +30,8 @@ namespace SimpsonsDatabase.Droid
 		public override void OnStart()
 		{
 			base.OnStart();
-			ISimpsonsRepository repository = new MockSimpsonsRepository();
-			var simpsons = repository.GetAllSimpsons();
+
+			var simpsons = Activity.Repository.GetAllSimpsons();
 
 			adapter = new SimpsonsListAdapter(Activity, simpsons);
 			listView.Adapter = adapter;
