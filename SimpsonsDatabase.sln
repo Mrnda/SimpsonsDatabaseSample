@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpsonsDatabase.Models", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpsonsDatabase.Data", "SimpsonsDatabase.Data\SimpsonsDatabase.Data.csproj", "{30B34E0E-BF84-48D4-8E38-1ADBC51CBA26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpsonsDatabase.Droid", "SimpsonsDatabase.Droid\SimpsonsDatabase.Droid.csproj", "{310B8726-B529-4424-8864-8D1C1F932879}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,5 +21,15 @@ Global
 		{30B34E0E-BF84-48D4-8E38-1ADBC51CBA26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30B34E0E-BF84-48D4-8E38-1ADBC51CBA26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30B34E0E-BF84-48D4-8E38-1ADBC51CBA26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{310B8726-B529-4424-8864-8D1C1F932879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{310B8726-B529-4424-8864-8D1C1F932879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{310B8726-B529-4424-8864-8D1C1F932879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{310B8726-B529-4424-8864-8D1C1F932879}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$1.ResourceNamePolicy = FileFormatDefault
 	EndGlobalSection
 EndGlobal

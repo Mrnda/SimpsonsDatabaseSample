@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Simpsons Database</string>
+
+	<string name="simpson_detail_first_name">First name:</string>
+	<string name="simpson_detail_last_name">Last name:</string>
+	<string name="simpson_detail_age">Age:</string>
+	<string name="simpson_detail_gender">Gender:</string>
+	<string name="simpson_detail_gender_male">Male</string>
+	<string name="simpson_detail_gender_female">Female</string>
+	<string name="simpson_detail_gender_unknown">Unknown</string>
+	<string name="simpson_detail_description">Description:</string>
+</resources>
